@@ -148,7 +148,7 @@ class ManufacturingDSS:
 
 def generate_scada_plot(report, save_path="process_health.png"):
     if report["z_scores"] is None:
-        print("⚠️ Plot skipped: Emergency or OOD state.")
+        print(" Plot skipped: Emergency or OOD state.")
         return
 
     features = ["Temperature", "Pressure", "Vibration", "Speed"]
