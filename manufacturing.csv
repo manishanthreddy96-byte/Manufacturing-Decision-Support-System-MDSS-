@@ -1,0 +1,501 @@
+case_id,temperature_c,pressure_bar,vibration_mm_s,speed_rpm,defect_type,recommended_action
+1,208.7,92.9,4.39,1098,Minor Cosmetic,Fine-tune Settings; Inspect Material
+2,192.5,89.2,3.19,1088,Minor Cosmetic,Fine-tune Settings; Inspect Material
+3,214,76.2,3.75,1439,Minor Cosmetic,Fine-tune Settings; Inspect Material
+4,216.3,70,5.64,1259,Burn Mark,Reduce Temperature; Increase Cooling
+5,181.6,60,4.51,1162,Minor Cosmetic,Fine-tune Settings; Inspect Material
+6,189.4,77.7,5.11,1290,Minor Cosmetic,Fine-tune Settings; Inspect Material
+7,206.5,101.4,5.71,821,Minor Cosmetic,Fine-tune Settings; Inspect Material
+8,201.2,85.5,3.83,1192,Minor Cosmetic,Fine-tune Settings; Inspect Material
+9,204.8,77.5,5.86,1560,Minor Cosmetic,Fine-tune Settings; Inspect Material
+10,194.8,85.7,5.18,1224,Minor Cosmetic,Fine-tune Settings; Inspect Material
+11,215.6,69.5,2.28,1212,Burn Mark,Reduce Temperature; Increase Cooling
+12,214.3,79.6,7.1,1299,Minor Cosmetic,Fine-tune Settings; Inspect Material
+13,205.8,82.8,3.6,1361,Minor Cosmetic,Fine-tune Settings; Inspect Material
+14,218.5,81.3,1.52,840,Minor Cosmetic,Fine-tune Settings; Inspect Material
+15,210.6,88.3,2.62,897,Minor Cosmetic,Fine-tune Settings; Inspect Material
+16,194.7,84.8,2.66,1238,Minor Cosmetic,Fine-tune Settings; Inspect Material
+17,209.4,87.3,4.59,1071,Minor Cosmetic,Fine-tune Settings; Inspect Material
+18,193.5,76.5,4.01,1436,Minor Cosmetic,Fine-tune Settings; Inspect Material
+19,215.5,89.2,3.89,1143,Minor Cosmetic,Fine-tune Settings; Inspect Material
+20,204.4,95,5.62,852,Minor Cosmetic,Fine-tune Settings; Inspect Material
+21,202.8,74.2,5.11,972,Minor Cosmetic,Fine-tune Settings; Inspect Material
+22,196.8,74.9,5.07,800,Minor Cosmetic,Fine-tune Settings; Inspect Material
+23,219.7,92.7,5.24,1158,Minor Cosmetic,Fine-tune Settings; Inspect Material
+24,203.1,80.5,5.61,1166,Minor Cosmetic,Fine-tune Settings; Inspect Material
+25,199.9,93.2,0.71,1124,Minor Cosmetic,Fine-tune Settings; Inspect Material
+26,200.8,78.5,3.84,1394,Minor Cosmetic,Fine-tune Settings; Inspect Material
+27,211.4,93.6,0.58,1416,Minor Cosmetic,Fine-tune Settings; Inspect Material
+28,209.4,83.1,4.56,1169,Minor Cosmetic,Fine-tune Settings; Inspect Material
+29,210,84.1,4.49,816,Minor Cosmetic,Fine-tune Settings; Inspect Material
+30,210.2,94.5,6.38,1311,Minor Cosmetic,Fine-tune Settings; Inspect Material
+31,230.7,79.1,6.64,1300,Minor Cosmetic,Fine-tune Settings; Inspect Material
+32,200.1,74.5,4.86,1256,Minor Cosmetic,Fine-tune Settings; Inspect Material
+33,198.9,78.4,3.6,1377,Minor Cosmetic,Fine-tune Settings; Inspect Material
+34,195.2,85.6,5.37,990,Minor Cosmetic,Fine-tune Settings; Inspect Material
+35,212.4,69.5,3.55,1562,Voids,Increase Pressure; Reduce Speed
+36,218.5,87.1,4.5,1027,Minor Cosmetic,Fine-tune Settings; Inspect Material
+37,203.6,77.7,6.28,1335,Minor Cosmetic,Fine-tune Settings; Inspect Material
+38,194.9,91.2,3.5,896,Sink Mark,Increase Packing Pressure; Adjust Cooling
+39,195.1,62.8,5.95,1033,Minor Cosmetic,Fine-tune Settings; Inspect Material
+40,212.8,75.7,5.72,1473,Minor Cosmetic,Fine-tune Settings; Inspect Material
+41,213.9,68.5,2.78,1153,Minor Cosmetic,Fine-tune Settings; Inspect Material
+42,211.5,75.4,6.25,1351,Minor Cosmetic,Fine-tune Settings; Inspect Material
+43,197,84,5.76,1243,Minor Cosmetic,Fine-tune Settings; Inspect Material
+44,207.8,80.6,4.68,1181,Minor Cosmetic,Fine-tune Settings; Inspect Material
+45,206.4,80,3.13,1445,Minor Cosmetic,Fine-tune Settings; Inspect Material
+46,207.6,80.7,2.95,1157,No Defect,No Change
+47,215.5,83.6,3.53,879,Minor Cosmetic,Fine-tune Settings; Inspect Material
+48,207.7,73.9,5.48,1055,Minor Cosmetic,Fine-tune Settings; Inspect Material
+49,213.1,87.7,2.78,1299,No Defect,No Change
+50,205.8,87.3,5.29,1271,Minor Cosmetic,Fine-tune Settings; Inspect Material
+51,208.5,85.1,2.26,918,Minor Cosmetic,Fine-tune Settings; Inspect Material
+52,212.6,86.5,4.13,1070,Minor Cosmetic,Fine-tune Settings; Inspect Material
+53,187.5,84.4,4.7,1095,Minor Cosmetic,Fine-tune Settings; Inspect Material
+54,201.2,98.3,8.9,1134,Minor Cosmetic,Fine-tune Settings; Inspect Material
+55,199.4,81.3,2.02,952,Minor Cosmetic,Fine-tune Settings; Inspect Material
+56,197.3,79.5,7.15,1087,Minor Cosmetic,Fine-tune Settings; Inspect Material
+57,201.7,76,4.77,1069,Minor Cosmetic,Fine-tune Settings; Inspect Material
+58,222.9,73.7,5.24,1339,Burn Mark,Reduce Temperature; Increase Cooling
+59,194.6,72,4.71,1346,Minor Cosmetic,Fine-tune Settings; Inspect Material
+60,216.6,74.9,5.3,1174,Burn Mark,Reduce Temperature; Increase Cooling
+61,184.8,81.4,4.22,1129,Minor Cosmetic,Fine-tune Settings; Inspect Material
+62,201,84.7,7.12,1225,Minor Cosmetic,Fine-tune Settings; Inspect Material
+63,207,82.4,3.68,1053,Minor Cosmetic,Fine-tune Settings; Inspect Material
+64,212,75.9,6.54,994,Minor Cosmetic,Fine-tune Settings; Inspect Material
+65,213.5,89.2,3.34,1031,Minor Cosmetic,Fine-tune Settings; Inspect Material
+66,214.5,87.9,4.39,1086,Minor Cosmetic,Fine-tune Settings; Inspect Material
+67,200.8,80.7,2.57,991,Minor Cosmetic,Fine-tune Settings; Inspect Material
+68,199.5,76.8,5.32,1229,Minor Cosmetic,Fine-tune Settings; Inspect Material
+69,215.3,86.4,7.1,1331,Minor Cosmetic,Fine-tune Settings; Inspect Material
+70,202.7,83.5,4.36,914,Minor Cosmetic,Fine-tune Settings; Inspect Material
+71,189.7,70.4,4.15,1205,Minor Cosmetic,Fine-tune Settings; Inspect Material
+72,191.4,81.5,2.49,1160,Minor Cosmetic,Fine-tune Settings; Inspect Material
+73,194,84.1,4.09,1261,Minor Cosmetic,Fine-tune Settings; Inspect Material
+74,211,74.8,1.63,1198,Minor Cosmetic,Fine-tune Settings; Inspect Material
+75,206.7,83.5,2.86,938,Minor Cosmetic,Fine-tune Settings; Inspect Material
+76,213.3,70.4,4.91,973,Minor Cosmetic,Fine-tune Settings; Inspect Material
+77,199.9,92.7,6.87,1205,Minor Cosmetic,Fine-tune Settings; Inspect Material
+78,206.9,92,9.56,1385,Surface Crack,Reduce Speed; Check Tooling
+79,212.5,80,3.44,801,Minor Cosmetic,Fine-tune Settings; Inspect Material
+80,201.3,84.9,7.08,1262,Minor Cosmetic,Fine-tune Settings; Inspect Material
+81,210.5,62.7,4.94,1414,Voids,Increase Pressure; Reduce Speed
+82,197.1,72.7,4.23,1172,Minor Cosmetic,Fine-tune Settings; Inspect Material
+83,200.6,79.6,5.28,1299,Minor Cosmetic,Fine-tune Settings; Inspect Material
+84,200.4,73.4,4.61,1073,Minor Cosmetic,Fine-tune Settings; Inspect Material
+85,190.6,87.7,4.7,1179,Minor Cosmetic,Fine-tune Settings; Inspect Material
+86,210.8,98,3.77,908,Minor Cosmetic,Fine-tune Settings; Inspect Material
+87,199.4,72.6,1.98,800,Minor Cosmetic,Fine-tune Settings; Inspect Material
+88,205.1,75.3,1.72,1370,Minor Cosmetic,Fine-tune Settings; Inspect Material
+89,210.8,83.9,5.68,1023,Minor Cosmetic,Fine-tune Settings; Inspect Material
+90,210.4,94.9,4,1118,Minor Cosmetic,Fine-tune Settings; Inspect Material
+91,213,72.2,3.43,950,Minor Cosmetic,Fine-tune Settings; Inspect Material
+92,203.8,84,4.52,946,Minor Cosmetic,Fine-tune Settings; Inspect Material
+93,199.9,96.6,5.93,1169,Minor Cosmetic,Fine-tune Settings; Inspect Material
+94,204,68.8,4.82,1069,Minor Cosmetic,Fine-tune Settings; Inspect Material
+95,184.8,71.8,3.32,1268,Minor Cosmetic,Fine-tune Settings; Inspect Material
+96,187.6,78.6,6.71,1281,Dimensional Error,Check Maintenance; Stabilize Vibration
+97,189.1,77.8,7.34,1258,Dimensional Error,Check Maintenance; Stabilize Vibration
+98,193,88.5,5.39,1243,Minor Cosmetic,Fine-tune Settings; Inspect Material
+99,209.8,83.9,6.25,1484,Minor Cosmetic,Fine-tune Settings; Inspect Material
+100,194.1,67.8,6.74,1008,Dimensional Error,Check Maintenance; Stabilize Vibration
+101,200.5,86.1,6.53,1190,Minor Cosmetic,Fine-tune Settings; Inspect Material
+102,220.6,77.4,5.61,1404,Warping,Reduce Speed; Optimize Cooling
+103,200.7,92.2,5.58,1428,Minor Cosmetic,Fine-tune Settings; Inspect Material
+104,213.9,77,5.44,944,Minor Cosmetic,Fine-tune Settings; Inspect Material
+105,193.8,76.9,2.52,1144,Minor Cosmetic,Fine-tune Settings; Inspect Material
+106,202.5,86.3,5.76,1444,Minor Cosmetic,Fine-tune Settings; Inspect Material
+107,193.6,88.1,2.06,1291,Minor Cosmetic,Fine-tune Settings; Inspect Material
+108,200.9,85.6,3.07,1235,Minor Cosmetic,Fine-tune Settings; Inspect Material
+109,215.1,68.5,6.85,1161,Dimensional Error,Check Maintenance; Stabilize Vibration
+110,184.3,86.3,6.01,1131,Minor Cosmetic,Fine-tune Settings; Inspect Material
+111,210.2,73.7,7.18,1252,Dimensional Error,Check Maintenance; Stabilize Vibration
+112,207.9,83.9,4.01,1155,Minor Cosmetic,Fine-tune Settings; Inspect Material
+113,197.9,70.6,2.43,1192,Minor Cosmetic,Fine-tune Settings; Inspect Material
+114,187.6,85.6,4.07,1214,Minor Cosmetic,Fine-tune Settings; Inspect Material
+115,205.9,75.5,4.68,1078,Minor Cosmetic,Fine-tune Settings; Inspect Material
+116,198.6,71.7,4.64,1296,Minor Cosmetic,Fine-tune Settings; Inspect Material
+117,207.8,87.7,6.54,1700,Surface Crack,Reduce Speed; Check Tooling
+118,205.3,83.9,3.85,880,Minor Cosmetic,Fine-tune Settings; Inspect Material
+119,224.2,77.1,5.13,1258,Minor Cosmetic,Fine-tune Settings; Inspect Material
+120,202.1,93.6,2.72,1063,Minor Cosmetic,Fine-tune Settings; Inspect Material
+121,192.7,78.5,5.31,1304,Minor Cosmetic,Fine-tune Settings; Inspect Material
+122,207.2,82.3,4.51,1208,Minor Cosmetic,Fine-tune Settings; Inspect Material
+123,207.6,84.2,3.15,1337,Minor Cosmetic,Fine-tune Settings; Inspect Material
+124,221.3,77,4.08,1412,Warping,Reduce Speed; Optimize Cooling
+125,215,85.8,4.17,1235,Minor Cosmetic,Fine-tune Settings; Inspect Material
+126,209.3,77.7,4.01,1404,Minor Cosmetic,Fine-tune Settings; Inspect Material
+127,222.6,78.7,7.69,800,Minor Cosmetic,Fine-tune Settings; Inspect Material
+128,190.7,92.9,4.32,1486,Sink Mark,Increase Packing Pressure; Adjust Cooling
+129,197.3,73.7,4.06,1268,Minor Cosmetic,Fine-tune Settings; Inspect Material
+130,193.9,62.7,0.72,1394,Short Shot,Increase Pressure; Increase Temperature
+131,200.3,94.9,2.89,980,Minor Cosmetic,Fine-tune Settings; Inspect Material
+132,188.5,102.4,4.03,1050,Sink Mark,Increase Packing Pressure; Adjust Cooling
+133,212.6,78.8,3.27,1226,Minor Cosmetic,Fine-tune Settings; Inspect Material
+134,202.3,66.5,6.99,1197,Dimensional Error,Check Maintenance; Stabilize Vibration
+135,187.4,79.5,4.2,1251,Minor Cosmetic,Fine-tune Settings; Inspect Material
+136,192.8,79.7,6.82,1395,Surface Crack,Reduce Speed; Check Tooling
+137,208.8,80.5,4.61,882,Minor Cosmetic,Fine-tune Settings; Inspect Material
+138,215.1,73.1,4.57,1375,Burn Mark,Reduce Temperature; Increase Cooling
+139,229,86.6,4.34,1201,Minor Cosmetic,Fine-tune Settings; Inspect Material
+140,240,86.2,4.51,1163,Minor Cosmetic,Fine-tune Settings; Inspect Material
+141,210,70,7.59,935,Dimensional Error,Check Maintenance; Stabilize Vibration
+142,193.1,87.6,0.5,1291,Minor Cosmetic,Fine-tune Settings; Inspect Material
+143,179.4,98.4,0.9,800,Sink Mark,Increase Packing Pressure; Adjust Cooling
+144,208.2,83.4,3.52,1317,Minor Cosmetic,Fine-tune Settings; Inspect Material
+145,195.2,79.3,4.53,931,Minor Cosmetic,Fine-tune Settings; Inspect Material
+146,200,80.9,5.74,1210,Minor Cosmetic,Fine-tune Settings; Inspect Material
+147,197.7,86.9,5.35,1179,Minor Cosmetic,Fine-tune Settings; Inspect Material
+148,203.3,68.2,3.81,1411,Voids,Increase Pressure; Reduce Speed
+149,217.8,83.3,6.33,1168,Minor Cosmetic,Fine-tune Settings; Inspect Material
+150,206.9,78.9,6.35,1075,Minor Cosmetic,Fine-tune Settings; Inspect Material
+151,203.1,96.8,4.83,1109,Minor Cosmetic,Fine-tune Settings; Inspect Material
+152,192.6,80.6,6.23,1429,Minor Cosmetic,Fine-tune Settings; Inspect Material
+153,184.9,95.3,4.99,1297,Sink Mark,Increase Packing Pressure; Adjust Cooling
+154,199.2,73.2,3.49,1131,Minor Cosmetic,Fine-tune Settings; Inspect Material
+155,204.4,86.7,5.76,1157,Minor Cosmetic,Fine-tune Settings; Inspect Material
+156,226.2,84.6,4.7,918,Minor Cosmetic,Fine-tune Settings; Inspect Material
+157,206.6,75,4.5,1270,Minor Cosmetic,Fine-tune Settings; Inspect Material
+158,216.8,83.4,7.15,883,Minor Cosmetic,Fine-tune Settings; Inspect Material
+159,199,91.7,0.5,1335,Minor Cosmetic,Fine-tune Settings; Inspect Material
+160,190.8,79.4,1.95,1223,Minor Cosmetic,Fine-tune Settings; Inspect Material
+161,193.4,68.5,2.36,1630,Short Shot,Increase Pressure; Increase Temperature
+162,196.3,81.9,3.85,1002,Minor Cosmetic,Fine-tune Settings; Inspect Material
+163,230.5,74.8,4.04,1182,Burn Mark,Reduce Temperature; Increase Cooling
+164,195.1,79.3,1.79,1524,Minor Cosmetic,Fine-tune Settings; Inspect Material
+165,215.1,81.3,2.73,1414,Warping,Reduce Speed; Optimize Cooling
+166,194.2,68.4,2.95,1075,Minor Cosmetic,Fine-tune Settings; Inspect Material
+167,216.2,69.1,8.92,1240,Dimensional Error,Check Maintenance; Stabilize Vibration
+168,209.6,85.9,7.74,1200,Minor Cosmetic,Fine-tune Settings; Inspect Material
+169,203.1,77.8,3.76,1251,Minor Cosmetic,Fine-tune Settings; Inspect Material
+170,204.5,61.5,3.85,1074,Minor Cosmetic,Fine-tune Settings; Inspect Material
+171,197.1,88.3,2.43,1184,No Defect,No Change
+172,210.4,84.2,1.07,912,Minor Cosmetic,Fine-tune Settings; Inspect Material
+173,199.5,76.3,4.29,1224,Minor Cosmetic,Fine-tune Settings; Inspect Material
+174,190.3,71.5,2.7,1281,Minor Cosmetic,Fine-tune Settings; Inspect Material
+175,189.7,88.7,4.35,1159,Minor Cosmetic,Fine-tune Settings; Inspect Material
+176,207.1,84.8,1.62,909,Minor Cosmetic,Fine-tune Settings; Inspect Material
+177,223.9,101.1,3.13,1378,Flash,Reduce Pressure; Reduce Speed
+178,206.9,85.4,4.77,1266,Minor Cosmetic,Fine-tune Settings; Inspect Material
+179,203.6,85.1,5.16,1069,Minor Cosmetic,Fine-tune Settings; Inspect Material
+180,208.4,80.7,5.25,1149,Minor Cosmetic,Fine-tune Settings; Inspect Material
+181,220.7,88.5,2.12,930,Minor Cosmetic,Fine-tune Settings; Inspect Material
+182,207.6,87,6.04,1015,Minor Cosmetic,Fine-tune Settings; Inspect Material
+183,200.1,92,3.06,1103,Minor Cosmetic,Fine-tune Settings; Inspect Material
+184,218.3,77.8,5.64,1421,Warping,Reduce Speed; Optimize Cooling
+185,210.1,78.5,4.48,1085,Minor Cosmetic,Fine-tune Settings; Inspect Material
+186,223.4,78.2,2.02,1315,Minor Cosmetic,Fine-tune Settings; Inspect Material
+187,207.2,88.3,3.93,1103,Minor Cosmetic,Fine-tune Settings; Inspect Material
+188,190.3,94,5.16,1245,Sink Mark,Increase Packing Pressure; Adjust Cooling
+189,188.6,78.3,5.6,1175,Minor Cosmetic,Fine-tune Settings; Inspect Material
+190,224.8,78.6,4.25,1357,Warping,Reduce Speed; Optimize Cooling
+191,225.7,84.5,7.26,1104,Minor Cosmetic,Fine-tune Settings; Inspect Material
+192,202.8,80,6.31,917,Minor Cosmetic,Fine-tune Settings; Inspect Material
+193,200.4,89.6,4.04,951,Minor Cosmetic,Fine-tune Settings; Inspect Material
+194,222.5,64,5.85,1104,Burn Mark,Reduce Temperature; Increase Cooling
+195,191.7,75.4,7.98,975,Dimensional Error,Check Maintenance; Stabilize Vibration
+196,194.3,75.7,8.03,1274,Dimensional Error,Check Maintenance; Stabilize Vibration
+197,212.7,63.4,2.29,1116,Minor Cosmetic,Fine-tune Settings; Inspect Material
+198,200.3,74.3,2.83,1627,Voids,Increase Pressure; Reduce Speed
+199,204.9,74.7,7.17,887,Dimensional Error,Check Maintenance; Stabilize Vibration
+200,203,80.4,2.6,1237,No Defect,No Change
+201,209.1,90.9,2.12,997,Minor Cosmetic,Fine-tune Settings; Inspect Material
+202,221.9,80,3.62,1111,Minor Cosmetic,Fine-tune Settings; Inspect Material
+203,206.1,73.8,5.26,1225,Minor Cosmetic,Fine-tune Settings; Inspect Material
+204,212.7,81.5,4.32,800,Minor Cosmetic,Fine-tune Settings; Inspect Material
+205,180.4,90.4,3.33,1243,Sink Mark,Increase Packing Pressure; Adjust Cooling
+206,204.4,74.2,3.29,1543,Voids,Increase Pressure; Reduce Speed
+207,194.9,74.7,3.22,1118,Minor Cosmetic,Fine-tune Settings; Inspect Material
+208,190.4,86.5,2.92,1247,Minor Cosmetic,Fine-tune Settings; Inspect Material
+209,194.5,80.2,8.61,1384,Surface Crack,Reduce Speed; Check Tooling
+210,201,87.2,5.04,1170,Minor Cosmetic,Fine-tune Settings; Inspect Material
+211,216,81.9,6.1,1095,Minor Cosmetic,Fine-tune Settings; Inspect Material
+212,189.1,87.6,3.62,800,Minor Cosmetic,Fine-tune Settings; Inspect Material
+213,205.4,73.7,4.17,1315,Minor Cosmetic,Fine-tune Settings; Inspect Material
+214,199.2,81.9,3.22,1180,Minor Cosmetic,Fine-tune Settings; Inspect Material
+215,201.1,80.3,0.5,1018,No Defect,No Change
+216,217,72.3,2.02,1223,Burn Mark,Reduce Temperature; Increase Cooling
+217,211.5,69.5,1.24,1095,Minor Cosmetic,Fine-tune Settings; Inspect Material
+218,221,87.5,0.5,1105,Minor Cosmetic,Fine-tune Settings; Inspect Material
+219,203.1,79.2,2.35,1309,No Defect,No Change
+220,196.6,73.8,6.88,959,Dimensional Error,Check Maintenance; Stabilize Vibration
+221,202.3,81.2,4.42,1389,Minor Cosmetic,Fine-tune Settings; Inspect Material
+222,207.9,91,6.82,948,Minor Cosmetic,Fine-tune Settings; Inspect Material
+223,207.1,63.8,5.24,1081,Minor Cosmetic,Fine-tune Settings; Inspect Material
+224,192,70,5.91,1546,Short Shot,Increase Pressure; Increase Temperature
+225,206.1,74.6,2.88,1403,Voids,Increase Pressure; Reduce Speed
+226,207.7,93.7,5.44,1218,Minor Cosmetic,Fine-tune Settings; Inspect Material
+227,235.2,84.3,5.81,1031,Minor Cosmetic,Fine-tune Settings; Inspect Material
+228,227.5,88.1,3.46,1105,Minor Cosmetic,Fine-tune Settings; Inspect Material
+229,194.8,72.9,5.51,1213,Minor Cosmetic,Fine-tune Settings; Inspect Material
+230,201.6,73,5.52,1207,Minor Cosmetic,Fine-tune Settings; Inspect Material
+231,187.4,85.6,3.51,1184,Minor Cosmetic,Fine-tune Settings; Inspect Material
+232,197.9,82.5,2.48,1194,No Defect,No Change
+233,208.8,86.4,2.37,1161,No Defect,No Change
+234,219.5,80.5,4.66,940,Minor Cosmetic,Fine-tune Settings; Inspect Material
+235,196.3,84.2,5.09,1107,Minor Cosmetic,Fine-tune Settings; Inspect Material
+236,197.2,83.3,3.07,1365,Minor Cosmetic,Fine-tune Settings; Inspect Material
+237,179.2,88.2,4.55,954,Minor Cosmetic,Fine-tune Settings; Inspect Material
+238,203,88.5,5.53,1166,Minor Cosmetic,Fine-tune Settings; Inspect Material
+239,192.3,69,5.61,1052,Minor Cosmetic,Fine-tune Settings; Inspect Material
+240,198.6,64,7.29,1220,Dimensional Error,Check Maintenance; Stabilize Vibration
+241,194.5,90,6.8,1130,Dimensional Error,Check Maintenance; Stabilize Vibration
+242,203.9,91.5,2.7,1466,Minor Cosmetic,Fine-tune Settings; Inspect Material
+243,183.9,73.8,7.53,1291,Dimensional Error,Check Maintenance; Stabilize Vibration
+244,187.4,67.1,3.54,964,Minor Cosmetic,Fine-tune Settings; Inspect Material
+245,230.6,82.8,6.38,1321,Minor Cosmetic,Fine-tune Settings; Inspect Material
+246,189.6,89.4,4.62,1061,Minor Cosmetic,Fine-tune Settings; Inspect Material
+247,191.8,96.4,3.76,1096,Sink Mark,Increase Packing Pressure; Adjust Cooling
+248,227,86.1,1.25,1256,Minor Cosmetic,Fine-tune Settings; Inspect Material
+249,239.9,79,4.19,1111,Minor Cosmetic,Fine-tune Settings; Inspect Material
+250,190.9,74.9,1.69,1361,Short Shot,Increase Pressure; Increase Temperature
+251,200.6,82.1,6.24,1061,Minor Cosmetic,Fine-tune Settings; Inspect Material
+252,209.1,79.6,7.23,1089,Minor Cosmetic,Fine-tune Settings; Inspect Material
+253,225.7,73.9,3.07,1082,Burn Mark,Reduce Temperature; Increase Cooling
+254,193.2,98.4,5.04,1098,Sink Mark,Increase Packing Pressure; Adjust Cooling
+255,202.1,96.3,3.19,1398,Minor Cosmetic,Fine-tune Settings; Inspect Material
+256,214.3,91.1,3.37,1313,Minor Cosmetic,Fine-tune Settings; Inspect Material
+257,210.2,74.6,5.89,1508,Voids,Increase Pressure; Reduce Speed
+258,200.5,88.8,4.43,1608,Minor Cosmetic,Fine-tune Settings; Inspect Material
+259,203.4,87.1,7.63,1014,Minor Cosmetic,Fine-tune Settings; Inspect Material
+260,188.5,85.5,3.63,1213,Minor Cosmetic,Fine-tune Settings; Inspect Material
+261,202.1,92,6.3,988,Minor Cosmetic,Fine-tune Settings; Inspect Material
+262,201.8,87.1,4.68,1060,Minor Cosmetic,Fine-tune Settings; Inspect Material
+263,207.8,87.9,5.93,1087,Minor Cosmetic,Fine-tune Settings; Inspect Material
+264,198.3,87.1,3.7,1010,Minor Cosmetic,Fine-tune Settings; Inspect Material
+265,210.7,84.7,4.41,1011,Minor Cosmetic,Fine-tune Settings; Inspect Material
+266,217.2,67.7,4.29,1174,Burn Mark,Reduce Temperature; Increase Cooling
+267,206.9,82.7,3,981,Minor Cosmetic,Fine-tune Settings; Inspect Material
+268,209.2,77.6,5.69,1352,Minor Cosmetic,Fine-tune Settings; Inspect Material
+269,205.6,71.8,5.67,1035,Minor Cosmetic,Fine-tune Settings; Inspect Material
+270,205,95.5,5.57,1700,Minor Cosmetic,Fine-tune Settings; Inspect Material
+271,196.3,95.8,7.27,1119,Minor Cosmetic,Fine-tune Settings; Inspect Material
+272,208.8,92.9,7.11,1213,Minor Cosmetic,Fine-tune Settings; Inspect Material
+273,203.8,84,3.83,967,Minor Cosmetic,Fine-tune Settings; Inspect Material
+274,230.1,92.8,5.17,1507,Flash,Reduce Pressure; Reduce Speed
+275,223.9,82.1,3.38,1402,Warping,Reduce Speed; Optimize Cooling
+276,209.6,83.6,4.54,1253,Minor Cosmetic,Fine-tune Settings; Inspect Material
+277,195.8,73.3,3.42,958,Minor Cosmetic,Fine-tune Settings; Inspect Material
+278,191.7,85.2,7.42,1238,Dimensional Error,Check Maintenance; Stabilize Vibration
+279,219.3,82.5,5.15,998,Minor Cosmetic,Fine-tune Settings; Inspect Material
+280,208.2,71.6,4.11,1463,Voids,Increase Pressure; Reduce Speed
+281,210.8,81.6,6.65,1346,Minor Cosmetic,Fine-tune Settings; Inspect Material
+282,184.1,81.4,0.59,1217,Minor Cosmetic,Fine-tune Settings; Inspect Material
+283,216.1,96.4,0.87,800,Minor Cosmetic,Fine-tune Settings; Inspect Material
+284,210.5,89.2,5.93,1023,Minor Cosmetic,Fine-tune Settings; Inspect Material
+285,191.7,82.1,4.61,1324,Minor Cosmetic,Fine-tune Settings; Inspect Material
+286,199.3,84,4.95,1418,Minor Cosmetic,Fine-tune Settings; Inspect Material
+287,208.2,82.4,2.11,1400,Minor Cosmetic,Fine-tune Settings; Inspect Material
+288,205.6,80.4,4.46,913,Minor Cosmetic,Fine-tune Settings; Inspect Material
+289,201.5,73.3,8.11,1254,Dimensional Error,Check Maintenance; Stabilize Vibration
+290,203.8,80.8,5.98,1383,Minor Cosmetic,Fine-tune Settings; Inspect Material
+291,202,76,4.81,901,Minor Cosmetic,Fine-tune Settings; Inspect Material
+292,206.8,72,3.71,1199,Minor Cosmetic,Fine-tune Settings; Inspect Material
+293,222.7,86.1,3.79,1249,Minor Cosmetic,Fine-tune Settings; Inspect Material
+294,174.2,85.1,0.67,1146,Minor Cosmetic,Fine-tune Settings; Inspect Material
+295,202.2,67.7,4.96,867,Minor Cosmetic,Fine-tune Settings; Inspect Material
+296,207.1,81,6.02,1141,Minor Cosmetic,Fine-tune Settings; Inspect Material
+297,208.6,90,1.66,1141,No Defect,No Change
+298,200.5,90.5,3.31,1173,Minor Cosmetic,Fine-tune Settings; Inspect Material
+299,183.9,90.2,2.42,1099,Sink Mark,Increase Packing Pressure; Adjust Cooling
+300,208.9,82.3,2.76,1120,No Defect,No Change
+301,225.7,75.2,4.6,1193,Minor Cosmetic,Fine-tune Settings; Inspect Material
+302,186.6,73.3,0.75,1280,Minor Cosmetic,Fine-tune Settings; Inspect Material
+303,215.4,84.8,5.61,1145,Minor Cosmetic,Fine-tune Settings; Inspect Material
+304,201.1,85,5.86,1126,Minor Cosmetic,Fine-tune Settings; Inspect Material
+305,204.3,92.3,4.05,1217,Minor Cosmetic,Fine-tune Settings; Inspect Material
+306,192.4,90.8,0.5,854,Sink Mark,Increase Packing Pressure; Adjust Cooling
+307,201,80.9,2.71,1286,No Defect,No Change
+308,220.6,72,6.72,1200,Dimensional Error,Check Maintenance; Stabilize Vibration
+309,212,79.4,0.5,1207,No Defect,No Change
+310,225.8,83.7,3.87,1373,Warping,Reduce Speed; Optimize Cooling
+311,219.1,80.4,2.38,848,Minor Cosmetic,Fine-tune Settings; Inspect Material
+312,210.3,77.4,5.95,845,Minor Cosmetic,Fine-tune Settings; Inspect Material
+313,225.9,84,3.28,1249,Minor Cosmetic,Fine-tune Settings; Inspect Material
+314,210.3,78,5.23,1199,Minor Cosmetic,Fine-tune Settings; Inspect Material
+315,214.9,77,5.52,1231,Minor Cosmetic,Fine-tune Settings; Inspect Material
+316,201.4,84.5,7.81,1117,Minor Cosmetic,Fine-tune Settings; Inspect Material
+317,205.8,78.8,4.13,1320,Minor Cosmetic,Fine-tune Settings; Inspect Material
+318,196.6,84,5.18,1368,Minor Cosmetic,Fine-tune Settings; Inspect Material
+319,216.9,84.2,1.83,1287,Minor Cosmetic,Fine-tune Settings; Inspect Material
+320,190.9,72.9,6.64,1153,Dimensional Error,Check Maintenance; Stabilize Vibration
+321,214.4,78.2,3.13,821,Minor Cosmetic,Fine-tune Settings; Inspect Material
+322,202.7,93.5,3.49,1338,Minor Cosmetic,Fine-tune Settings; Inspect Material
+323,219.1,72.7,4.46,1420,Burn Mark,Reduce Temperature; Increase Cooling
+324,214,65.1,1.69,1316,Minor Cosmetic,Fine-tune Settings; Inspect Material
+325,226.8,67.1,4.91,1042,Burn Mark,Reduce Temperature; Increase Cooling
+326,213.8,82.2,6.24,1321,Minor Cosmetic,Fine-tune Settings; Inspect Material
+327,186.1,82.2,5.03,1355,Minor Cosmetic,Fine-tune Settings; Inspect Material
+328,204.2,81.1,1.64,1481,Minor Cosmetic,Fine-tune Settings; Inspect Material
+329,190.9,91.7,4.28,1042,Sink Mark,Increase Packing Pressure; Adjust Cooling
+330,198.8,60.6,5.84,1159,Minor Cosmetic,Fine-tune Settings; Inspect Material
+331,223.1,85.2,1.12,1335,Minor Cosmetic,Fine-tune Settings; Inspect Material
+332,212.7,94.5,2.57,1210,Minor Cosmetic,Fine-tune Settings; Inspect Material
+333,196.6,73,6.08,999,Minor Cosmetic,Fine-tune Settings; Inspect Material
+334,192.8,79,4.99,1275,Minor Cosmetic,Fine-tune Settings; Inspect Material
+335,205.4,76,5.24,1304,Minor Cosmetic,Fine-tune Settings; Inspect Material
+336,190.4,74.8,7.85,1216,Dimensional Error,Check Maintenance; Stabilize Vibration
+337,196.9,79.4,5.34,1240,Minor Cosmetic,Fine-tune Settings; Inspect Material
+338,208.7,93.4,5.68,1153,Minor Cosmetic,Fine-tune Settings; Inspect Material
+339,218.9,96.7,9.38,1466,Flash,Reduce Pressure; Reduce Speed
+340,212.3,79.3,4.12,1038,Minor Cosmetic,Fine-tune Settings; Inspect Material
+341,177.5,97.2,3.06,1094,Sink Mark,Increase Packing Pressure; Adjust Cooling
+342,208.7,82.3,5.27,1202,Minor Cosmetic,Fine-tune Settings; Inspect Material
+343,205.9,96,5.29,1358,Minor Cosmetic,Fine-tune Settings; Inspect Material
+344,210,81.3,3.55,930,Minor Cosmetic,Fine-tune Settings; Inspect Material
+345,224.4,83,2.64,964,Minor Cosmetic,Fine-tune Settings; Inspect Material
+346,180.2,84.9,8.66,833,Dimensional Error,Check Maintenance; Stabilize Vibration
+347,197.9,105,5.09,1206,Minor Cosmetic,Fine-tune Settings; Inspect Material
+348,212.1,88.8,3.18,999,Minor Cosmetic,Fine-tune Settings; Inspect Material
+349,186,76.3,6.15,1131,Minor Cosmetic,Fine-tune Settings; Inspect Material
+350,222.7,89.8,4.3,1319,Minor Cosmetic,Fine-tune Settings; Inspect Material
+351,209.4,79.1,4.04,1085,Minor Cosmetic,Fine-tune Settings; Inspect Material
+352,215.2,78.1,5.51,1242,Minor Cosmetic,Fine-tune Settings; Inspect Material
+353,198.1,89.3,2.17,1146,No Defect,No Change
+354,214.8,82.2,5.13,1321,Minor Cosmetic,Fine-tune Settings; Inspect Material
+355,217.8,84.2,7.94,1286,Minor Cosmetic,Fine-tune Settings; Inspect Material
+356,207.8,82.1,5.34,1075,Minor Cosmetic,Fine-tune Settings; Inspect Material
+357,207.8,84.7,3.82,1170,Minor Cosmetic,Fine-tune Settings; Inspect Material
+358,208.2,85.4,3.59,1388,Minor Cosmetic,Fine-tune Settings; Inspect Material
+359,194.6,66.5,3.76,1271,Minor Cosmetic,Fine-tune Settings; Inspect Material
+360,203.2,87.3,4.04,949,Minor Cosmetic,Fine-tune Settings; Inspect Material
+361,203.2,74.1,3.82,1318,Minor Cosmetic,Fine-tune Settings; Inspect Material
+362,209.6,70.5,6.15,1005,Minor Cosmetic,Fine-tune Settings; Inspect Material
+363,217,81.5,1.38,1454,Warping,Reduce Speed; Optimize Cooling
+364,192.3,82.7,6.05,1384,Minor Cosmetic,Fine-tune Settings; Inspect Material
+365,203.5,76.5,3.82,1252,Minor Cosmetic,Fine-tune Settings; Inspect Material
+366,222.8,88.6,5.18,1228,Minor Cosmetic,Fine-tune Settings; Inspect Material
+367,196.1,71.3,2.47,1162,Minor Cosmetic,Fine-tune Settings; Inspect Material
+368,195.1,78.7,6.89,1322,Minor Cosmetic,Fine-tune Settings; Inspect Material
+369,207.4,77.3,6.74,1133,Minor Cosmetic,Fine-tune Settings; Inspect Material
+370,215.1,81.6,6.23,1242,Minor Cosmetic,Fine-tune Settings; Inspect Material
+371,205.1,84.2,1.77,1357,Minor Cosmetic,Fine-tune Settings; Inspect Material
+372,220.9,73.9,5.99,1099,Burn Mark,Reduce Temperature; Increase Cooling
+373,215.3,87.8,5.23,1089,Minor Cosmetic,Fine-tune Settings; Inspect Material
+374,215.1,82.5,1.61,985,Minor Cosmetic,Fine-tune Settings; Inspect Material
+375,211.6,66.9,4.46,1008,Minor Cosmetic,Fine-tune Settings; Inspect Material
+376,232.9,66.3,5.16,871,Burn Mark,Reduce Temperature; Increase Cooling
+377,202.5,81.9,5.5,1331,Minor Cosmetic,Fine-tune Settings; Inspect Material
+378,181,80.2,4.82,1526,Minor Cosmetic,Fine-tune Settings; Inspect Material
+379,224.3,81.2,5.02,1457,Warping,Reduce Speed; Optimize Cooling
+380,199.5,81.8,7.15,907,Minor Cosmetic,Fine-tune Settings; Inspect Material
+381,206.3,83.8,6.71,1330,Minor Cosmetic,Fine-tune Settings; Inspect Material
+382,220.7,89.6,0.5,1456,Warping,Reduce Speed; Optimize Cooling
+383,185.8,73.1,3.93,1118,Minor Cosmetic,Fine-tune Settings; Inspect Material
+384,190,72.6,4.2,1218,Minor Cosmetic,Fine-tune Settings; Inspect Material
+385,185.8,73.3,1.35,839,Minor Cosmetic,Fine-tune Settings; Inspect Material
+386,195.5,84.3,4.67,1248,Minor Cosmetic,Fine-tune Settings; Inspect Material
+387,210.3,92,6.75,1009,Minor Cosmetic,Fine-tune Settings; Inspect Material
+388,211.3,78.5,2.54,1236,No Defect,No Change
+389,208.3,62,5.11,919,Minor Cosmetic,Fine-tune Settings; Inspect Material
+390,188,68.4,2.85,1298,Minor Cosmetic,Fine-tune Settings; Inspect Material
+391,177.3,75.3,3.29,1384,Minor Cosmetic,Fine-tune Settings; Inspect Material
+392,205.7,77.5,7.16,1059,Minor Cosmetic,Fine-tune Settings; Inspect Material
+393,199.3,78.7,3.52,995,Minor Cosmetic,Fine-tune Settings; Inspect Material
+394,210.5,82.3,5.33,812,Minor Cosmetic,Fine-tune Settings; Inspect Material
+395,213.4,79.5,1.13,1152,No Defect,No Change
+396,206.7,90.4,7.85,1095,Minor Cosmetic,Fine-tune Settings; Inspect Material
+397,214.1,76.6,5.58,921,Minor Cosmetic,Fine-tune Settings; Inspect Material
+398,207.8,75.1,4.17,1282,Minor Cosmetic,Fine-tune Settings; Inspect Material
+399,211.4,85.8,5.54,1119,Minor Cosmetic,Fine-tune Settings; Inspect Material
+400,196.5,69.7,1.96,1006,Minor Cosmetic,Fine-tune Settings; Inspect Material
+401,202.8,85.1,6.63,1100,Minor Cosmetic,Fine-tune Settings; Inspect Material
+402,207.4,82.8,3.92,1393,Minor Cosmetic,Fine-tune Settings; Inspect Material
+403,214.8,80.8,4.13,1309,Minor Cosmetic,Fine-tune Settings; Inspect Material
+404,200.3,94.7,3.62,1177,Minor Cosmetic,Fine-tune Settings; Inspect Material
+405,211.3,77,3.45,1311,Minor Cosmetic,Fine-tune Settings; Inspect Material
+406,201.8,98.5,5.75,991,Minor Cosmetic,Fine-tune Settings; Inspect Material
+407,203.6,80.2,4.96,1206,Minor Cosmetic,Fine-tune Settings; Inspect Material
+408,215,71.8,5.67,1227,Minor Cosmetic,Fine-tune Settings; Inspect Material
+409,181.1,82.6,4.48,1115,Minor Cosmetic,Fine-tune Settings; Inspect Material
+410,189.4,73.4,5.42,1278,Minor Cosmetic,Fine-tune Settings; Inspect Material
+411,187.2,76,3.75,1060,Minor Cosmetic,Fine-tune Settings; Inspect Material
+412,177,85.2,8.51,1292,Dimensional Error,Check Maintenance; Stabilize Vibration
+413,196.9,86.4,1.68,1299,No Defect,No Change
+414,214,77,6.77,800,Minor Cosmetic,Fine-tune Settings; Inspect Material
+415,201.6,89.9,6.96,1414,Surface Crack,Reduce Speed; Check Tooling
+416,207.4,91.3,2.97,800,Minor Cosmetic,Fine-tune Settings; Inspect Material
+417,218.1,93.5,8.51,1089,Minor Cosmetic,Fine-tune Settings; Inspect Material
+418,220.9,86.2,6.29,1385,Warping,Reduce Speed; Optimize Cooling
+419,204.2,92.9,6.25,1143,Minor Cosmetic,Fine-tune Settings; Inspect Material
+420,221.2,67,4.55,936,Burn Mark,Reduce Temperature; Increase Cooling
+421,206.1,79.5,4.11,1003,Minor Cosmetic,Fine-tune Settings; Inspect Material
+422,195,75.1,4.12,1385,Minor Cosmetic,Fine-tune Settings; Inspect Material
+423,197.9,83,5.2,854,Minor Cosmetic,Fine-tune Settings; Inspect Material
+424,187.2,77.4,7.02,1403,Surface Crack,Reduce Speed; Check Tooling
+425,194.3,80.7,4.83,1190,Minor Cosmetic,Fine-tune Settings; Inspect Material
+426,200.7,97.1,2.86,985,Minor Cosmetic,Fine-tune Settings; Inspect Material
+427,214.6,80.6,5.98,1095,Minor Cosmetic,Fine-tune Settings; Inspect Material
+428,225.6,85.3,6.16,1017,Minor Cosmetic,Fine-tune Settings; Inspect Material
+429,188.4,80.1,5.68,1356,Minor Cosmetic,Fine-tune Settings; Inspect Material
+430,209.7,82.6,5.84,1332,Minor Cosmetic,Fine-tune Settings; Inspect Material
+431,192.5,82,4.01,891,Minor Cosmetic,Fine-tune Settings; Inspect Material
+432,210.7,85.6,2.83,1127,No Defect,No Change
+433,203.4,91.3,2.94,1045,Minor Cosmetic,Fine-tune Settings; Inspect Material
+434,183,95.2,1.56,1433,Sink Mark,Increase Packing Pressure; Adjust Cooling
+435,216.1,84.5,4.93,957,Minor Cosmetic,Fine-tune Settings; Inspect Material
+436,197.7,86.7,4.35,1489,Minor Cosmetic,Fine-tune Settings; Inspect Material
+437,198.6,72.8,3.71,1194,Minor Cosmetic,Fine-tune Settings; Inspect Material
+438,192.2,81.3,0.5,991,Minor Cosmetic,Fine-tune Settings; Inspect Material
+439,197.1,89.5,2.25,1078,No Defect,No Change
+440,210.1,88.9,6.52,1056,Minor Cosmetic,Fine-tune Settings; Inspect Material
+441,202.7,83.7,3.3,971,Minor Cosmetic,Fine-tune Settings; Inspect Material
+442,208.9,89.1,5.15,1217,Minor Cosmetic,Fine-tune Settings; Inspect Material
+443,209.3,85.9,2,979,Minor Cosmetic,Fine-tune Settings; Inspect Material
+444,220.8,91.6,7.09,808,Minor Cosmetic,Fine-tune Settings; Inspect Material
+445,200.9,84.3,4.24,1132,Minor Cosmetic,Fine-tune Settings; Inspect Material
+446,187.3,79.2,5.02,875,Minor Cosmetic,Fine-tune Settings; Inspect Material
+447,217.8,84.7,8.69,1065,Minor Cosmetic,Fine-tune Settings; Inspect Material
+448,201,60,7.23,1036,Dimensional Error,Check Maintenance; Stabilize Vibration
+449,218.4,85.1,3.95,1043,Minor Cosmetic,Fine-tune Settings; Inspect Material
+450,209.6,60,3.43,1560,Voids,Increase Pressure; Reduce Speed
+451,203.4,68.2,3.91,1210,Minor Cosmetic,Fine-tune Settings; Inspect Material
+452,209.2,85.6,5.42,1244,Minor Cosmetic,Fine-tune Settings; Inspect Material
+453,228.4,85.8,4.31,880,Minor Cosmetic,Fine-tune Settings; Inspect Material
+454,229.9,72.7,3.79,1082,Burn Mark,Reduce Temperature; Increase Cooling
+455,205.8,76.3,7.14,1239,Minor Cosmetic,Fine-tune Settings; Inspect Material
+456,206.9,93,4.29,1016,Minor Cosmetic,Fine-tune Settings; Inspect Material
+457,217.9,78.1,8.64,1363,Surface Crack,Reduce Speed; Check Tooling
+458,194.9,99.9,4.66,984,Sink Mark,Increase Packing Pressure; Adjust Cooling
+459,209,82,7.71,1148,Minor Cosmetic,Fine-tune Settings; Inspect Material
+460,204.7,85.3,5.14,1095,Minor Cosmetic,Fine-tune Settings; Inspect Material
+461,208.8,94.9,6.23,1230,Minor Cosmetic,Fine-tune Settings; Inspect Material
+462,195,83,3.2,1085,Minor Cosmetic,Fine-tune Settings; Inspect Material
+463,185.9,74,2.96,1151,Minor Cosmetic,Fine-tune Settings; Inspect Material
+464,180.1,81.1,5.33,1157,Minor Cosmetic,Fine-tune Settings; Inspect Material
+465,191.6,81.7,6.28,1068,Minor Cosmetic,Fine-tune Settings; Inspect Material
+466,199.5,71.1,4.57,1287,Minor Cosmetic,Fine-tune Settings; Inspect Material
+467,201.5,80,2.18,1243,No Defect,No Change
+468,228.2,76.1,2.05,1184,Minor Cosmetic,Fine-tune Settings; Inspect Material
+469,218.3,89.4,1.93,1123,Minor Cosmetic,Fine-tune Settings; Inspect Material
+470,193.5,82.3,1.32,1343,Minor Cosmetic,Fine-tune Settings; Inspect Material
+471,209.2,79.7,4.7,1158,Minor Cosmetic,Fine-tune Settings; Inspect Material
+472,200.1,81.2,6.53,1145,Minor Cosmetic,Fine-tune Settings; Inspect Material
+473,201.6,83.8,4.48,1219,Minor Cosmetic,Fine-tune Settings; Inspect Material
+474,207.2,86.9,0.5,1505,Minor Cosmetic,Fine-tune Settings; Inspect Material
+475,212.4,74,4.16,959,Minor Cosmetic,Fine-tune Settings; Inspect Material
+476,200.9,73.7,4.21,1339,Minor Cosmetic,Fine-tune Settings; Inspect Material
+477,217.8,90.8,8.27,859,Minor Cosmetic,Fine-tune Settings; Inspect Material
+478,191.3,78.7,1.88,1239,Minor Cosmetic,Fine-tune Settings; Inspect Material
+479,205.1,70.7,3.8,1484,Voids,Increase Pressure; Reduce Speed
+480,236.2,85.6,7.57,1288,Minor Cosmetic,Fine-tune Settings; Inspect Material
+481,207.7,85.7,5.31,1231,Minor Cosmetic,Fine-tune Settings; Inspect Material
+482,222.2,69.8,5.51,1099,Burn Mark,Reduce Temperature; Increase Cooling
+483,206.1,83.8,4.71,1206,Minor Cosmetic,Fine-tune Settings; Inspect Material
+484,212,87.9,5.09,1155,Minor Cosmetic,Fine-tune Settings; Inspect Material
+485,204.3,85,5.9,1059,Minor Cosmetic,Fine-tune Settings; Inspect Material
+486,203,87.1,3.04,1148,Minor Cosmetic,Fine-tune Settings; Inspect Material
+487,195.6,70.8,6.08,1236,Minor Cosmetic,Fine-tune Settings; Inspect Material
+488,210.2,84.6,2.03,1062,No Defect,No Change
+489,194.8,79.6,5.09,1055,Minor Cosmetic,Fine-tune Settings; Inspect Material
+490,213,78.1,4.82,955,Minor Cosmetic,Fine-tune Settings; Inspect Material
+491,218,89,3.39,1270,Minor Cosmetic,Fine-tune Settings; Inspect Material
+492,209.4,93.8,4.46,1298,Minor Cosmetic,Fine-tune Settings; Inspect Material
+493,201.6,96.4,3.38,1242,Minor Cosmetic,Fine-tune Settings; Inspect Material
+494,210.4,92.5,2.57,1374,Minor Cosmetic,Fine-tune Settings; Inspect Material
+495,201.3,81.1,3.86,1216,Minor Cosmetic,Fine-tune Settings; Inspect Material
+496,216.2,84.8,2.51,1271,Minor Cosmetic,Fine-tune Settings; Inspect Material
+497,183,88.1,5.08,1255,Minor Cosmetic,Fine-tune Settings; Inspect Material
+498,201,83,2.43,1184,No Defect,No Change
+499,181.1,83,5.78,1104,Minor Cosmetic,Fine-tune Settings; Inspect Material
+500,187.1,88.6,2.37,1599,Minor Cosmetic,Fine-tune Settings; Inspect Material
