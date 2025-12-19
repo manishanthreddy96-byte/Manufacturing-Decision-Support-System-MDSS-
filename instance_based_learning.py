@@ -7,14 +7,10 @@ from sklearn.neighbors import KNeighborsClassifier
 from IPython.display import Image, display
 
 
-# =========================================================
-# MANUFACTURING DSS
-# =========================================================
+
 class ManufacturingDSS:
     def __init__(self, csv_path, window_size=10, k=7):
-        # -----------------------------
-        # Load Data
-        # -----------------------------
+        
         self.df = pd.read_csv(csv_path)
 
         self.features = [
@@ -24,13 +20,11 @@ class ManufacturingDSS:
             "speed_rpm",
         ]
 
-        # Training bounds (for OOD check)
+        
         self.min_train = self.df[self.features].min()
         self.max_train = self.df[self.features].max()
 
-        # -----------------------------
-        # Scaling + kNN Models
-        # -----------------------------
+      -
         self.scaler = StandardScaler()
         self.X = self.scaler.fit_transform(self.df[self.features])
 
@@ -43,9 +37,7 @@ class ManufacturingDSS:
         self.knn_action = KNeighborsClassifier(n_neighbors=k, weights="distance")
         self.knn_action.fit(self.X, self.y_action)
 
-        # -----------------------------
-        # Golden Batch (fallback safe)
-        # -----------------------------
+        
         golden = self.df[self.df["defect_type"] == "No Defect"]
         if len(golden) < 5:
             golden = self.df
@@ -53,18 +45,12 @@ class ManufacturingDSS:
         self.golden_center = golden[self.features].mean().values
         self.golden_std = golden[self.features].std().replace(0, 1e-6).values
 
-        # -----------------------------
-        # Governance State
-        # -----------------------------
+        
         self.history = deque(maxlen=window_size)
         self.last_mode = "MANUAL_ONLY"
         self.consecutive_auto = 0
 
-        self.units_per_rev = 0.05  # throughput constant
-
-    # =====================================================
-    # GOLDEN SCORE (PUBLIC & TESTABLE)
-    # =====================================================
+        self.units_per_rev = 0.05  
     def golden_score(self, raw):
         raw = np.array(raw, dtype=float)
         z = (raw - self.golden_center) / self.golden_std
@@ -72,15 +58,11 @@ class ManufacturingDSS:
         score = float(np.mean(feature_scores))
         return score, z
 
-    # =====================================================
-    # OOD CHECK
-    # =====================================================
+  
     def _ood_check(self, raw):
         return (raw < self.min_train.values).any() or (raw > self.max_train.values).any()
 
-    # =====================================================
-    # MAIN ANALYSIS
-    # =====================================================
+    
     def analyze(self, temp, pressure, vibration, speed):
         raw = np.array([temp, pressure, vibration, speed], dtype=float)
 
@@ -106,16 +88,13 @@ class ManufacturingDSS:
                 None,
             )
 
-        # -------- AI Inference
         scaled = self.scaler.transform(raw.reshape(1, -1))
         defect = self.knn_defect.predict(scaled)[0]
         action = self.knn_action.predict(scaled)[0]
         confidence = float(np.max(self.knn_defect.predict_proba(scaled)))
 
-        # -------- Process Health
         golden, z = self.golden_score(raw)
 
-        # -------- Industry Governance Thresholds
         AUTO_CONF, AUTO_G = 0.80, 0.85
         HIL_CONF, HIL_G = 0.60, 0.70
 
@@ -126,7 +105,6 @@ class ManufacturingDSS:
         else:
             candidate = "MANUAL_ONLY"
 
-        # -------- Hysteresis (anti-chatter)
         if candidate.startswith("AUTO"):
             self.consecutive_auto += 1
         else:
@@ -139,7 +117,6 @@ class ManufacturingDSS:
 
         self.last_mode = mode
 
-        # -------- Throughput Estimate
         theoretical_uph = speed * self.units_per_rev * 60
         mode_factor = 1.0 if mode.startswith("AUTO") else 0.75 if mode.startswith("HUMAN") else 0.5
         predicted_uph = theoretical_uph * confidence * mode_factor
@@ -168,9 +145,7 @@ class ManufacturingDSS:
         }
 
 
-# =========================================================
-# SCADA / HMI PLOT
-# =========================================================
+
 def generate_scada_plot(report, save_path="process_health.png"):
     if report["z_scores"] is None:
         print("⚠️ Plot skipped: Emergency or OOD state.")
@@ -204,12 +179,10 @@ def generate_scada_plot(report, save_path="process_health.png"):
     plt.savefig(save_path)
     plt.close()
 
-    print(f"📊 SCADA plot saved: {save_path}")
+    print(f" SCADA plot saved: {save_path}")
 
 
-# =========================================================
-# EXECUTION / OUTPUT CHECK
-# =========================================================
+ 
 if __name__ == "__main__":
     dss = ManufacturingDSS("manufacturing.csv")
 
